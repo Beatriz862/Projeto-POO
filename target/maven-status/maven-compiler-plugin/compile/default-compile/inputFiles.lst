@@ -1,0 +1,17 @@
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/GestaoProjetosApplication.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/controller/DisciplinaController.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/controller/MebrosController.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/controller/ProjetoController.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/controller/TarefaController.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/dto/RequisicaoFormMebros.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/entity/Disciplina.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/entity/Mebros.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/entity/Projeto.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/entity/StatusMebros.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/entity/Tarefa.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/respository/DisciplinaRepository.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/respository/MebrosRepository.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/respository/ProjetoRepository.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/respository/TarefaRepository.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/service/ProjetoService.java
+/workspaces/at05_aos/src/main/java/com/example/gestao_projetos/service/TarefaService.java

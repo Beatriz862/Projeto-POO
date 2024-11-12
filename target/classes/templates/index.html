@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestor de Projetos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            border: none;
+            transition: 0.3s;
+        }
+        .card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Bem-vindo!</h1>
+        <div class="row">
+            <!-- Disciplinas Card -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Gerenciar Disciplinas</h5>
+                        <p class="card-text">Adicione, edite e veja as disciplinas cadastradas no sistema.</p>
+                        <a href="/disciplinas" class="btn btn-primary">Ver Disciplinas</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projetos Card -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Gerenciar Projetos</h5>
+                        <p class="card-text">Adicione novos projetos e gerencie seus detalhes.</p>
+                        <a href="/projetos" class="btn btn-success">Ver Projetos</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Membros Card -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Gerenciar Membros</h5>
+                        <p class="card-text">Adicione, edite e atribua membros aos projetos.</p>
+                        <a href="/mebros" class="btn btn-warning">Ver Membros</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Tarefas Card -->
+            <div class="col-md-4 offset-md-2">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Gerenciar Tarefas</h5>
+                        <p class="card-text">Adicione e gerencie as tarefas dos projetos existentes.</p>
+                        <a href="/tarefas" class="btn btn-danger">Ver Tarefas</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Relatórios Card -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Gerar Relatórios</h5>
+                        <p class="card-text">Visualize relatórios de progresso dos projetos e tarefas.</p>
+                        <a href="/relatorios" class="btn btn-info">Ver Relatórios</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
